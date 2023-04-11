@@ -1,0 +1,32 @@
+.card {
+    color: white;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    margin: 0 3rem;
+    position: relative;
+}
+
+.cardContent {
+    text-align: left;
+    padding: 1rem;
+}
+
+.closeButton {
+    background-color: #d93b40;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: -19px;
+    top: -19px;
+}
